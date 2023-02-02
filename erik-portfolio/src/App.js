@@ -7,6 +7,9 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 // PAGES
 import Home from './pages/Home';
+import Resume from './pages/Resume';
+// COMPONENTS
+import Header from './Components/Header';
 // FONTS
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -15,17 +18,29 @@ import '@fontsource/roboto/700.css';
 // STYLES
 import './App.css';
 
-function App() {
+export default function App() {
+  
   return (
+
     <div className="App">
+
+      <Header />
+
       <Routes>
+
         <Route
           path='/'
           element={<Home />}
         />
+
+        <Route
+          path='/resume'
+          element={<Resume />}
+        />
+
       </Routes>
+
     </div>
+
   );
 }
-
-export default App;

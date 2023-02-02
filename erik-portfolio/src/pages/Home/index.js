@@ -1,11 +1,14 @@
 
-import { Typography } from "@mui/material";
+import { Typography, Container } from "@mui/material";
 
 export default function Home() {
 
     return (
 
-        <Typography variant="h1">Erik Scheive</Typography>
+        <Container align="center">
+            <Typography variant="h1">Erik Scheive</Typography>
+
+        </Container>
 
     )
 
