@@ -1,7 +1,9 @@
 
 // Dependencies
-import { Typography, Container, Box } from "@mui/material";
+import { Typography, Container, Box, Grid } from "@mui/material";
 import { Image } from 'mui-image';
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import { IconContext } from 'react-icons';
 // Style
 import './style.css'
 // Assets
@@ -26,7 +28,7 @@ export default function Home() {
 
     return (
 
-        <Container align='center' sx={{ mb: 8 }}>
+        <div align='center'>
 
             <Box>
 
@@ -192,7 +194,31 @@ export default function Home() {
                 </Box>
             </Box>
 
-        </Container>
+            <Box
+                sx={{
+                    width: "100%",
+                    height: "auto",
+                    backgroundColor: "black",
+                    paddingTop: "1rem",
+                    paddingBottom: "1rem",
+                }}
+                direction='row'
+                alignItems='center'
+                >
+                
+                <Grid maxWidth='lg' alignItems='center' sx={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', mx: 2}}>
+                    <Typography color="white" align='left'>{`Erik Scheive | ${new Date().getFullYear()} `}</Typography>
+                    <Box color="white" align='right' variant="subtitle1" sx={{ display: 'flex', justifyContent: 'right'}}>
+                        <IconContext.Provider value={{ className: 'shared-class', size: 30}}>  
+                            <a href='https://github.com/escheive' target='_blank' rel='noreferrer' style={{ marginInline: 6, color: 'inherit' }}><BsGithub /></a>
+                            <a href='https://www.linkedin.com/in/erikscheive/' target='_blank' rel='noreferrer' style={{ marginInline: 6, color: 'inherit' }}><BsLinkedin /></a>
+                        </IconContext.Provider>
+                    </Box>
+                </Grid>
+
+            </Box>
+
+        </div>
 
     )
 
