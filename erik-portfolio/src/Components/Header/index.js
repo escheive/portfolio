@@ -55,35 +55,33 @@ export default function Header(props) {
 
         <Box sx={{ display: 'flex' }}>
         <CssBaseline />
-        <AppBar component="nav">
+        <AppBar style={{ backgroundColor: 'black'}} component="nav">
             <Toolbar>
-            <IconButton
-                color="inherit"
-                aria-label="open drawer"
-                edge="start"
-                onClick={handleDrawerToggle}
-                sx={{ mr: 2, display: { sm: 'none' } }}
-            >
-                <MenuIcon />
-            </IconButton>
-            <Typography
-                variant="h6"
-                component="div"
-                sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
-            >
-                <Link to='/'>
-                    Erik
-                </Link>
-            </Typography>
-            <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-                {navItems.map((item) => (
-                    <Button key={item} sx={{ color: '#fff' }}>
-                        <Link to={`/${item}`}>
-                            {item}
-                        </Link>
-                    </Button>
-                ))}
-            </Box>
+                <IconButton
+                    color="inherit"
+                    aria-label="open drawer"
+                    edge="start"
+                    onClick={handleDrawerToggle}
+                    sx={{ mr: 2, display: { sm: 'none' } }}
+                >
+                    <MenuIcon />
+                </IconButton>
+                <Typography
+                    variant="h6"
+                    component="div"
+                    sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+                >
+                    <Link style={{ color: 'white', textDecoration: 'none' }} to='/'>Erik</Link>
+                </Typography>
+                <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+                    {navItems.map((item) => (
+                        <Button className='navLinks' key={item} sx={{ color: '#fff' }}>
+                            <Link style={{ color: 'white', textDecoration: 'none' }} to={`/${item}`}>
+                                {item}
+                            </Link>
+                        </Button>
+                    ))}
+                </Box>
             </Toolbar>
         </AppBar>
         <Box component="nav">

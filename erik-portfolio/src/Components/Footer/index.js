@@ -14,6 +14,8 @@ export default function Footer() {
                 backgroundColor: "black",
                 paddingTop: "1rem",
                 paddingBottom: "1rem",
+                position: 'relative',
+                bottom: '0'
             }}
             direction='row'
             alignItems='center'
@@ -23,8 +25,8 @@ export default function Footer() {
                 <Typography color="white" align='left'>{`Erik Scheive | ${new Date().getFullYear()} `}</Typography>
                 <Box color="white" align='right' variant="subtitle1" sx={{ display: 'flex', justifyContent: 'right'}}>
                     <IconContext.Provider value={{ className: 'shared-class', size: 30}}>  
-                        <a href='https://github.com/escheive' target='_blank' rel='noreferrer' style={{ marginInline: 6, color: 'inherit' }}><BsGithub /></a>
-                        <a href='https://www.linkedin.com/in/erikscheive/' target='_blank' rel='noreferrer' style={{ marginInline: 6, color: 'inherit' }}><BsLinkedin /></a>
+                        <a className='navLinks' href='https://github.com/escheive' target='_blank' rel='noreferrer' style={{ marginInline: 6, color: 'inherit' }}><BsGithub /></a>
+                        <a className='navLinks' href='https://www.linkedin.com/in/erikscheive/' target='_blank' rel='noreferrer' style={{ marginInline: 6, color: 'inherit' }}><BsLinkedin /></a>
                     </IconContext.Provider>
                 </Box>
             </Grid>
