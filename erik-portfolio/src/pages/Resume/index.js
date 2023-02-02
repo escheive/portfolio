@@ -1,21 +1,27 @@
 
 import { Typography, Container, Box } from "@mui/material";
 import { Image } from 'mui-image';
-import htmllogo from '../../assets/html.png';
-import reactlogo from '../../assets/react.png';
-import csslogo from '../../assets/css.png'
-import postgreslogo from '../../assets/postgres.png'
-import mongologo from '../../assets/mongo.png';
-import pythonlogo from '../../assets/python.png';
-import javascriptlogo from '../../assets/javascript.png';
-import expresslogo from '../../assets/express.png';
-import nodejslogo from '../../assets/nodejs.png';
-import djangologo from '../../assets/django.png';
+import { styled } from '@mui/material/styles';
+// Style
+import './style.css'
+// Assets
+import htmllogo from '../../assets/languages/html.png';
+import reactlogo from '../../assets/languages/react.png';
+import csslogo from '../../assets/languages/css.png'
+import postgreslogo from '../../assets/languages/postgres.png'
+import mongologo from '../../assets/languages/mongo.png';
+import pythonlogo from '../../assets/languages/python.png';
+import javascriptlogo from '../../assets/languages/javascript.png';
+import expresslogo from '../../assets/languages/express.png';
+import nodejslogo from '../../assets/languages/nodejs.png';
+import djangologo from '../../assets/languages/django.png';
+import tailwindlogo from '../../assets/languages/tailwind.png';
+import bootstraplogo from '../../assets/languages/bootstrap.png';
+import muilogo from '../../assets/languages/mui.png';
+import typescriptlogo from '../../assets/languages/typescript.png';
+import sasslogo from '../../assets/languages/sass.png';
 
-let images = {
-    postgreslogo: '../../assets/postgres.png',
-    csslogo: '../../assets/css.png'
-}
+
 export default function Home() {
 
     return (
@@ -56,30 +62,72 @@ export default function Home() {
                     
                     <Box className='languages-skills' sx={{ mb: 8 }}>
                         <Typography variant='h3' sx={{ mt: 4, mb: 4, pb: 1, mx: 12, borderBottom: 1 }}>Languages & Skills</Typography>
-                        <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', mx: 14 }}>
-                            <Box>
-                                <Image src={htmllogo} height={100} width={100} alt='html' />
-                                <Typography>Html</Typography>
-                                <Image src={reactlogo} height={100} width={100} />
-                                <Typography>React</Typography>
-                                <Image src={csslogo} height={100} width={100} />
-                                <Typography>Css</Typography>
-                                <Image src={pythonlogo} height={100} width={100} />
-                                <Typography>Python</Typography>
-                                <Image src={djangologo} height={100} width={100} />
-                                <Typography>Django</Typography>
+                        <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 6, mx: 1 }}>
+                            <Box align='right'>
+                                <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>
+                                    <Image src={htmllogo} alt='html' />
+                                    <Typography variant='h6' align='center'>Html</Typography>
+                                </Box>
+                                <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>
+                                    <Image src={reactlogo} />
+                                    <Typography variant='h6' align='center'>React</Typography>
+                                </Box>
+                                <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>
+                                    <Image src={csslogo} />
+                                    <Typography variant='h6' align='center'>Css</Typography>
+                                </Box>
+                                <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>
+                                    <Image src={pythonlogo} />
+                                    <Typography variant='h6' align='center'>Python</Typography>
+                                </Box>
+                                <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>    
+                                    <Image src={muilogo} alt='html' />
+                                    <Typography variant='h6' align='center'>MaterialUI</Typography>
+                                </Box>
                             </Box>
                             <Box>
-                                <Image src={postgreslogo} height={100} width={100} sx={{ my: 1 }}alt='html' />
-                                <Typography>Sql</Typography>
-                                <Image src={mongologo} height={100} width={100} />
-                                <Typography>MongoDB</Typography>
-                                <Image src={javascriptlogo} height={100} width={100} />
-                                <Typography>JavaScript</Typography>
-                                <Image src={expresslogo} height={100} width={100} />
-                                <Typography>Express</Typography>
-                                <Image src={nodejslogo} height={100} width={100} />
-                                <Typography>Node.js</Typography>
+                                <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>
+                                    <Image src={postgreslogo} alt='html' /> 
+                                    <Typography variant='h6' align='center'>Sql</Typography>
+                                </Box>
+                                <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>  
+                                    <Image src={mongologo} />
+                                    <Typography variant='h6' align='center'>MongoDB</Typography>
+                                </Box>
+                                <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>
+                                    <Image src={javascriptlogo} />
+                                    <Typography variant='h6' align='center'>JavaScript</Typography>
+                                </Box>
+                                <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>  
+                                    <Image src={expresslogo} />
+                                    <Typography variant='h6' align='center'>Express</Typography>
+                                </Box>
+                                <Box style={{ maxWidth: 120, maxHeight: 120 }}> 
+                                    <Image src={sasslogo} />
+                                    <Typography variant='h6' align='center'>Sass</Typography>
+                                </Box>
+                            </Box>
+                            <Box align='left'>
+                                <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>   
+                                    <Image src={nodejslogo} />
+                                    <Typography variant='h6' align='center'>Node.js</Typography>
+                                </Box>
+                                <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>
+                                    <Image src={djangologo} />
+                                    <Typography variant='h6' align='center'>Django</Typography>
+                                </Box>
+                                <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>    
+                                    <Image src={typescriptlogo} />
+                                    <Typography variant='h6' align='center'>Typescript</Typography>
+                                </Box>
+                                <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>    
+                                    <Image src={bootstraplogo} />
+                                    <Typography variant='h6' align='center'>Bootstrap</Typography>
+                                </Box>
+                                <Box style={{ maxWidth: 120, maxHeight: 120 }}>    
+                                    <Image src={tailwindlogo} />
+                                    <Typography variant='h6' align='center'>Tailwind</Typography>
+                                </Box>
                             </Box>
                         </Box>
                     </Box>
