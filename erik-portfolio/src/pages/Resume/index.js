@@ -1,7 +1,7 @@
 
+// Dependencies
 import { Typography, Container, Box } from "@mui/material";
 import { Image } from 'mui-image';
-import { styled } from '@mui/material/styles';
 // Style
 import './style.css'
 // Assets
@@ -42,11 +42,14 @@ export default function Home() {
 
                     <Box class='facenook' sx={{ mb: 6 }}>
                         <Typography variant='h4'>Facenook</Typography>
-                        <Typography variant='h6' sx={{ mb: 1 }}>Developer</Typography>
+                        <Typography variant='h6' sx={{ mb: 1 }}>Sole Developer</Typography>
                         <Box>
-                            <Typography>Designed a fully functioning, scalable social media application that is user-focused</Typography>
-                            <Typography>Implemented a responsive, data-focused front-end using Django and Tailwind</Typography>
-                            <Typography>Integrated a reliable backend database using Postgres</Typography>
+                            <Typography sx={{ mb: 1 }}>Developed a fully functioning, scalable social media application that is user-focused</Typography>
+                            <Typography sx={{ mb: 1 }}>Implemented a responsive, data-focused front-end using Django</Typography>
+                            <Typography sx={{ mb: 1 }}>Coded class-based models and function-based views using python</Typography>
+                            <Typography sx={{ mb: 1 }}>Designed the user-interface using Tailwind and Flowbite</Typography>
+                            <Typography sx={{ mb: 1 }}>Integrated a reliable backend database using Postgres</Typography>
+                            <Typography>Hosted the site on Heroku and the database on bit.io</Typography>
                         </Box>
                     </Box>
 
@@ -54,9 +57,11 @@ export default function Home() {
                         <Typography variant='h4'>Hikers Hub</Typography>
                         <Typography variant='h6' sx={{ mb: 1 }}>Github Manager | Database Manager | Front-end Programmer</Typography>
                         <Box>
-                            <Typography>Designed a fully functioning, scalable social media application that is user-focused</Typography>
-                            <Typography>Implemented a responsive, data-focused front-end using Django and Tailwind</Typography>
-                            <Typography>Integrated a reliable backend database using Postgres</Typography>
+                            <Typography sx={{ mb: 1 }}>Developed and deployed a functional, hiking app with a team of software engineers</Typography>
+                            <Typography sx={{ mb: 1 }}>Designed a responsive front-end using React and JavaScript</Typography>
+                            <Typography sx={{ mb: 1 }}>Styled the user-interface using Css and Bootstrap</Typography>
+                            <Typography sx={{ mb: 1 }}>Connected a back-end database using MongoDB</Typography>
+                            <Typography>Hosted the site on Railway and the database on Mongoose</Typography>
                         </Box>
                     </Box>
                     
@@ -139,8 +144,8 @@ export default function Home() {
                         <Typography variant='h4'>General Assembly</Typography>
                         <Typography variant='h6' sx={{ mb: 1 }}>Software Engineering Fellow | Seattle, WA | Oct 22 - Jan 23</Typography>
                         <Box>
-                            <Typography>Rec professional training and working on full-stack projects</Typography>
-                            <Typography>Designed and implemented interactive, working websites and integrated them with databases</Typography>
+                            <Typography sx={{ mb: 1 }}>Received professional training and mentorship while working on full-stack projects</Typography>
+                            <Typography>Designed and implemented interactive, functioning websites and integrated them with back-end databases</Typography>
                         </Box>
                     </Box>
 
@@ -148,10 +153,10 @@ export default function Home() {
                         <Typography variant='h4'>Tapco Credit Union</Typography>
                         <Typography variant='h6' sx={{ mb: 1 }}>Assistant Manager | Tacoma, WA | Mar 22 - Oct 22</Typography>
                         <Box>
-                            <Typography>Create and execute plans to meet branch goals</Typography>
-                            <Typography>Lead financial as well as professional development trainings for new and existing employees</Typography>
-                            <Typography>Responsible for loan applications, new memberships, and branch performance</Typography>
-                            <Typography>Audit logs, internal processes, cash, security protocols, and robbery training on a routine basis</Typography>
+                            <Typography sx={{ mb: 1 }}>Create and execute plans to meet branch goals</Typography>
+                            <Typography sx={{ mb: 1 }}>Lead financial as well as professional development trainings for new and existing employees</Typography>
+                            <Typography sx={{ mb: 1 }}>Responsible for loan applications, new memberships, and branch performance</Typography>
+                            <Typography sx={{ mb: 1 }}>Audit logs, internal processes, cash, security protocols, and robbery training on a routine basis</Typography>
                             <Typography>Generate new memberships and visit local business to network and generate new leads</Typography>
                         </Box>
                     </Box>
@@ -160,10 +165,10 @@ export default function Home() {
                         <Typography variant='h4'>Enterprise Holdings</Typography>
                         <Typography variant='h6' sx={{ mb: 1 }}>Assistant Manager | Kent, WA | Mar 21 - Mar 22</Typography>
                         <Box>
-                            <Typography>Oversaw 300+ vehicles and coordinated reservations to maximize profit</Typography>
-                            <Typography>Led a diverse team, created schedules, trained employees, delegated tasks, and created monthly goals to achieve</Typography>
-                            <Typography>Underwrote and assessed potential risks to minimize theft, mitigate losses for derogatory payments, and prevent damage to vehicles</Typography>
-                            <Typography>Maintained relationships with body shops, dealerships and networked with potential clients</Typography>
+                            <Typography sx={{ mb: 1 }}>Oversaw 300+ vehicles and coordinated reservations to maximize profit</Typography>
+                            <Typography sx={{ mb: 1 }}>Led a diverse team, created schedules, trained employees, delegated tasks, and created monthly goals to achieve</Typography>
+                            <Typography sx={{ mb: 1 }}>Underwrote and assessed potential risks to minimize theft, mitigate losses for derogatory payments, and prevent damage to vehicles</Typography>
+                            <Typography sx={{ mb: 1 }}>Maintained relationships with body shops, dealerships and networked with potential clients</Typography>
                             <Typography>Reviewed and analyzed income statements and developed growth plans for the branch</Typography>
                         </Box>
                     </Box>
@@ -181,8 +186,8 @@ export default function Home() {
                 <Box>
                     <Typography variant='h3' sx={{ mt: 4, mb: 4, pb: 1, mx: 12, borderBottom: 1 }}>Education</Typography>
                     <Box>
-                        <Typography>Chaminade University</Typography>
-                        <Typography>Bachelor of Business Admin | Honolulu, HI | May 2019</Typography>
+                        <Typography variant='h4'>Chaminade University</Typography>
+                        <Typography variant='h6'>Bachelor of Business Admin | Honolulu, HI | May 2019</Typography>
                     </Box>
                 </Box>
             </Box>
