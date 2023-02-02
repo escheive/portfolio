@@ -2,10 +2,15 @@
 import { Typography, Container, Box } from "@mui/material";
 import { Image } from 'mui-image';
 import htmllogo from '../../assets/html.png';
-import reactlogo from '../../assets/reactlogo.png';
+import reactlogo from '../../assets/react.png';
 import csslogo from '../../assets/css.png'
 import postgreslogo from '../../assets/postgres.png'
 import mongologo from '../../assets/mongo.png';
+import pythonlogo from '../../assets/python.png';
+import javascriptlogo from '../../assets/javascript.png';
+import expresslogo from '../../assets/express.png';
+import nodejslogo from '../../assets/nodejs.png';
+import djangologo from '../../assets/django.png';
 
 let images = {
     postgreslogo: '../../assets/postgres.png',
@@ -54,18 +59,27 @@ export default function Home() {
                         <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', mx: 14 }}>
                             <Box>
                                 <Image src={htmllogo} height={100} width={100} alt='html' />
+                                <Typography>Html</Typography>
                                 <Image src={reactlogo} height={100} width={100} />
+                                <Typography>React</Typography>
                                 <Image src={csslogo} height={100} width={100} />
+                                <Typography>Css</Typography>
+                                <Image src={pythonlogo} height={100} width={100} />
                                 <Typography>Python</Typography>
-                                <Typography>JavaScript</Typography>
-                                <Typography>SQL</Typography>
-                                <Typography>MongoDB</Typography>
+                                <Image src={djangologo} height={100} width={100} />
+                                <Typography>Django</Typography>
                             </Box>
                             <Box>
-                                <Typography>React</Typography>
-                                <Typography>Node.js</Typography>
-                                <Typography>Django</Typography>
+                                <Image src={postgreslogo} height={100} width={100} sx={{ my: 1 }}alt='html' />
+                                <Typography>Sql</Typography>
+                                <Image src={mongologo} height={100} width={100} />
+                                <Typography>MongoDB</Typography>
+                                <Image src={javascriptlogo} height={100} width={100} />
+                                <Typography>JavaScript</Typography>
+                                <Image src={expresslogo} height={100} width={100} />
                                 <Typography>Express</Typography>
+                                <Image src={nodejslogo} height={100} width={100} />
+                                <Typography>Node.js</Typography>
                             </Box>
                         </Box>
                     </Box>
