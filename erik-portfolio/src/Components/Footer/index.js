@@ -14,8 +14,6 @@ export default function Footer() {
                 backgroundColor: "black",
                 paddingTop: "1rem",
                 paddingBottom: "1rem",
-                position: 'relative',
-                bottom: '0'
             }}
             direction='row'
             alignItems='center'

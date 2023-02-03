@@ -40,8 +40,8 @@ export default function Header(props) {
         <List>
             {navItems.map((item) => (
             <ListItem key={item} disablePadding>
-                <ListItemButton sx={{ textAlign: 'center' }}>
-                <ListItemText primary={item} />
+                <ListItemButton href={`/${item}`} sx={{ textAlign: 'center' }}>
+                    <ListItemText primary={item} />
                 </ListItemButton>
             </ListItem>
             ))}

@@ -1,0 +1,23 @@
+/* .main-background {
+    background-image: url('../../assets/DJI_0010.JPG');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+} */
+
+.main-title {
+    color: white;
+    text-transform: uppercase;
+    padding: 1px;
+    font-family: 'Raleway', cursive;
+    font-weight: 100;
+    position: relative;
+    background: linear-gradient(to right, black, #eee, black);
+}
+.main-title a {
+    background: black;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    letter-spacing: 30px;
+    color: white;
+}

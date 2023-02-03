@@ -1,14 +1,17 @@
 
-import { Typography, Container } from "@mui/material";
+import { Typography, Container, Box } from "@mui/material";
+// Style
+import './style.css';
 
 export default function Home() {
 
     return (
 
-        <Container align="center">
-            <Typography variant="h1">Erik Scheive</Typography>
+        <Box className='main-background' align="center" sx={{ height: '80vh'}}>
 
-        </Container>
+            <Typography className='main-title' variant="h1"><a href='/about'>Erik Scheive</a></Typography>
+
+        </Box>
 
     )
 
