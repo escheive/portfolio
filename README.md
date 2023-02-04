@@ -27,3 +27,7 @@ Click on the "Save" button
 That's it! The React app has been deployed to GitHub Pages! 🚀
 
 At this point, the React app is accessible to anyone who visits the homepage URL you specified in Step 4. For example, the React app I deployed is accessible at https://gitname.github.io/react-gh-pages.
+
+
+# For the homepage scss effect
+https://codepen.io/kajetan-orski/pen/YzQObKg
