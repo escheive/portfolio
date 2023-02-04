@@ -56,7 +56,7 @@ export default function Header(props) {
         <Box sx={{ display: 'flex' }}>
         <CssBaseline />
         <AppBar style={{ backgroundColor: 'black'}} component="nav">
-            <Toolbar>
+            <Toolbar style={{ height: '64px'}}>
                 <IconButton
                     color="inherit"
                     aria-label="open drawer"
@@ -101,7 +101,7 @@ export default function Header(props) {
             {drawer}
             </Drawer>
         </Box>
-        <Box component="main" sx={{ p: 3 }}>
+        <Box component="main">
             <Toolbar />
         </Box>
         </Box>

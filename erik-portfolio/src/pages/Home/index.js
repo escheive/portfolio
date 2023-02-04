@@ -1,15 +1,61 @@
 
 import { Typography, Container, Box } from "@mui/material";
 // Style
-import './style.css';
+import './style.scss';
 
 export default function Home() {
 
     return (
 
-        <Box className='main-background' align="center" sx={{ height: '80vh'}}>
+        <Box className='main-background' style={{ height: 'calc(100vh - 125px)', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
 
-            <Typography className='main-title' variant="h1"><a href='/about'>Erik Scheive</a></Typography>
+            <div className='overlay'></div>
+            <div class="text">
+                <div class="wrapper">
+                    <div id="L" class="letter">E</div>
+                    <div class="shadow">E</div>
+                </div>
+                <div class="wrapper">
+                    <div id="I" class="letter">R</div>
+                    <div class="shadow">R</div>
+                </div>
+                <div class="wrapper">
+                    <div id="G" class="letter">I</div>
+                    <div class="shadow">I</div>
+                </div>
+                <div class="wrapper">
+                    <div id="H" class="letter">K</div>
+                    <div class="shadow">K</div>
+                </div>
+                <div class="wrapper">
+                    <div id="T" class="letter">S</div>
+                    <div class="shadow">S</div>
+                </div>
+                <div class="wrapper">
+                    <div id="N" class="letter">C</div>
+                    <div class="shadow">C</div>
+                </div>
+                <div class="wrapper">
+                    <div id="E" class="letter">H</div>
+                    <div class="shadow">H</div>
+                </div>
+                <div class="wrapper">
+                    <div id="S" class="letter">E</div>
+                    <div class="shadow">E</div>
+                </div>
+                <div class="wrapper">
+                    <div id="Stwo" class="letter">I</div>
+                    <div class="shadow">I</div>
+                </div>
+                <div class="wrapper">
+                    <div id="Stwo" class="letter">V</div>
+                    <div class="shadow">V</div>
+                </div>
+                <div class="wrapper">
+                    <div id="Stwo" class="letter">E</div>
+                    <div class="shadow">E</div>
+                </div>
+            </div>
 
         </Box>
 
