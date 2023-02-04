@@ -10,7 +10,7 @@ export default function Home() {
         <Box className='main-background' style={{ height: 'calc(100vh - 125px)', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
 
             <div className='overlay'></div>
-            <div class="text">
+            <a style={{ color: 'inherit', textDecoration: 'none'}} href='/about'><div class="text">
                 <div class="wrapper">
                     <div id="L" class="letter">E</div>
                     <div class="shadow">E</div>
@@ -55,7 +55,7 @@ export default function Home() {
                     <div id="Stwo" class="letter">E</div>
                     <div class="shadow">E</div>
                 </div>
-            </div>
+            </div></a>
 
         </Box>
 
