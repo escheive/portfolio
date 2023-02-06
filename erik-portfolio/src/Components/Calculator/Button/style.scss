@@ -17,10 +17,15 @@ button:hover {
 .operand {
     background-color: rgb(230, 230, 230);
 }
+
+.calcZero {
+    border-bottom-left-radius: 9px;
+}
   
 .equals {
     grid-column: 3 / 5;
     background-color: rgb(255, 77, 45);
+    border-bottom-right-radius: 9px;
 }
   
 .equals:hover {
