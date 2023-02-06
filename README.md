@@ -31,3 +31,5 @@ At this point, the React app is accessible to anyone who visits the homepage URL
 
 # For the homepage scss effect
 https://codepen.io/kajetan-orski/pen/YzQObKg
+# For the calculator
+https://www.sitepoint.com/react-tutorial-build-calculator-app/
