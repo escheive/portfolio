@@ -6,7 +6,7 @@ import { AppBar, Box, CssBaseline, Divider, Drawer, IconButton, List, ListItem, 
 import MenuIcon from '@mui/icons-material/Menu';
 // Variables
 const drawerWidth = 240;
-const navItems = ['Resume', 'About', 'Contact'];
+const navItems = ['Resume', 'About', 'Projects', 'Contact'];
 
 
 export default function Header(props) {

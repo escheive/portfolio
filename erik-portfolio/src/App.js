@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Resume from './pages/Resume';
 import About from './pages/About'
 import Contact from './pages/Contact';
+import Projects from './pages/Projects';
 // COMPONENTS
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -45,6 +46,11 @@ export default function App() {
         <Route
           path='/contact'
           element={<Contact />}
+        />
+
+        <Route
+          path='/projects'
+          element={<Projects />}
         />
 
       </Routes>
