@@ -1,21 +1,10 @@
+
+// Dependencies
 import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import CssBaseline from '@mui/material/CssBaseline';
-import Divider from '@mui/material/Divider';
-import Drawer from '@mui/material/Drawer';
-import IconButton from '@mui/material/IconButton';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
-import MenuIcon from '@mui/icons-material/Menu';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
-
-
+import { AppBar, Box, CssBaseline, Divider, Drawer, IconButton, List, ListItem, ListItemButton, ListItemText, Toolbar, Typography, Button } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
+// Variables
 const drawerWidth = 240;
 const navItems = ['Resume', 'About', 'Contact'];
 
@@ -31,7 +20,7 @@ export default function Header(props) {
 
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-        <Link to='/'>
+        <Link to='/' style={{ textDecoration: 'none', color: 'inherit'}}>
             <Typography variant="h6" sx={{ my: 2 }}>
                 Erik
             </Typography>

@@ -1,13 +1,10 @@
 
 // DEPENDENCIES
 import { Routes, Route } from 'react-router-dom';
-import { useState, useEffect } from 'react';
-import axios from 'axios';
-import * as React from 'react';
-import Button from '@mui/material/Button';
 // PAGES
 import Home from './pages/Home';
 import Resume from './pages/Resume';
+import About from './pages/About'
 // COMPONENTS
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -37,6 +34,11 @@ export default function App() {
         <Route
           path='/resume'
           element={<Resume />}
+        />
+
+        <Route
+          path='/about'
+          element={<About />}
         />
 
       </Routes>

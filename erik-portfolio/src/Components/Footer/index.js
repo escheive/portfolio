@@ -1,3 +1,4 @@
+
 // Dependencies
 import { Typography, Box, Grid } from "@mui/material";
 import { BsGithub, BsLinkedin } from 'react-icons/bs';

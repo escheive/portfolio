@@ -1,9 +1,7 @@
 
 // Dependencies
-import { Typography, Container, Box, Grid } from "@mui/material";
+import { Typography, Box} from "@mui/material";
 import { Image } from 'mui-image';
-// Style
-import './style.css'
 // Assets
 import htmllogo from '../../assets/languages/html.png';
 import reactlogo from '../../assets/languages/react.png';
@@ -69,20 +67,20 @@ export default function Home() {
                     <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 6, mx: 1 }}>
                         <Box align='right'>
                             <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>
-                                <Image src={htmllogo} alt='html' />
-                                <Typography variant='h6' align='center'>Html</Typography>
-                            </Box>
-                            <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>
                                 <Image src={reactlogo} />
                                 <Typography variant='h6' align='center'>React</Typography>
                             </Box>
                             <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>
-                                <Image src={csslogo} />
-                                <Typography variant='h6' align='center'>Css</Typography>
-                            </Box>
-                            <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>
                                 <Image src={pythonlogo} />
                                 <Typography variant='h6' align='center'>Python</Typography>
+                            </Box>
+                            <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>
+                                <Image src={htmllogo} alt='html' />
+                                <Typography variant='h6' align='center'>Html</Typography>
+                            </Box>
+                            <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>
+                                <Image src={csslogo} />
+                                <Typography variant='h6' align='center'>Css</Typography>
                             </Box>
                             <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>    
                                 <Image src={muilogo} alt='html' />
@@ -92,7 +90,7 @@ export default function Home() {
                         <Box>
                             <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>
                                 <Image src={postgreslogo} alt='html' /> 
-                                <Typography variant='h6' align='center'>Sql</Typography>
+                                <Typography variant='h6' align='center'>PostgreSQL</Typography>
                             </Box>
                             <Box style={{ maxWidth: 120, maxHeight: 120 }} sx={{ mb: 7 }}>  
                                 <Image src={mongologo} />
