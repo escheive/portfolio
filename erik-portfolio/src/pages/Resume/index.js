@@ -30,7 +30,7 @@ export default function Home() {
             <Box>
                 <Typography variant='h2'>Erik Scheive</Typography>
                 <Typography variant='h5'>Software Engineer</Typography>
-                <Typography variant='h6'>Seattle, WA 98105 | 530-460-8470 | scheiveerik@gmail.com | Github | LinkedIn</Typography>
+                <Typography variant='h6'>Seattle, WA 98105 | erik.b.scheive@gmail.com | Github | LinkedIn</Typography>
             </Box>
             
             <Box className="projects">
