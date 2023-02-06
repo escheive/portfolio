@@ -137,7 +137,9 @@ export default function Calculator() {
                             return (
                                 <Button
                                     key={i}
-                                    className={btn === '=' ? 'equals' : ''}
+                                    className={
+                                        btn === '=' ? 'equals' : btn === 'C' | btn === '+-' | btn === '%' | btn === '/' | btn === 'X' | btn === '-' | btn === '+' ? 'operand' : ''
+                                    }
                                     value={btn}
                                     onClick={
                                         btn === 'C'
