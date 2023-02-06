@@ -1,7 +1,7 @@
 
 // Dependencies
+import { useState, useEffect } from 'react'
 import { Box, Typography, Alert } from '@mui/material';
-import EmailIcon from '@mui/icons-material/Email';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
 import { IconContext } from 'react-icons';
@@ -13,21 +13,33 @@ import './style.scss';
 
 export default function Contact() {
 
+
+    // Show state for copied email alert
+    const [showAlert, setShowAlert] = useState(false);
+    // Function to copy personal email to a users clipboard and display an alert
     function copyText() {
         navigator.clipboard.writeText('erik.b.scheive@gmail.com').then(() => {
-            alert('Email copied');
+            setShowAlert(true)
         })
         .catch(() => {
-            alert('something went wrong');
+            alert('Unable to copy email');
         })
     };
+    // Displays alert based on useState
+    useEffect( () => {
+    }, [showAlert])
+
 
     return (
 
         <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', my: 6 }}>
 
+            {/* Alert that is only showing when email is copied */}
+            {showAlert ? <Alert onClose={() => {setShowAlert(!showAlert)}} >Email copied!</Alert> : <Box sx={{ mb: 6 }}></Box>}
+
             <Typography variant='h3'>Contact Me</Typography>
             <Typography variant='body1' sx={{ mb: 8 }}>with one of the following methods</Typography>
+
 
             <Box>
                 <IconContext.Provider value={{ className: 'shared-class', size: 60}}>
