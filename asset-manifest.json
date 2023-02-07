@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.25c7fd6a.css",
-    "main.js": "/portfolio/static/js/main.32da0d9a.js",
+    "main.js": "/portfolio/static/js/main.0e0e4bd3.js",
     "static/media/drone_water.JPG": "/portfolio/static/media/drone_water.cfa2657abacaacd774fe.JPG",
     "static/media/ocean_shores_water.JPG": "/portfolio/static/media/ocean_shores_water.72aa8fc5391e16b1e04f.JPG",
     "static/media/profilePhoto.jpg": "/portfolio/static/media/profilePhoto.0c573bba49e3bac070af.jpg",
@@ -69,10 +69,10 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/portfolio/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/portfolio/index.html",
     "main.25c7fd6a.css.map": "/portfolio/static/css/main.25c7fd6a.css.map",
-    "main.32da0d9a.js.map": "/portfolio/static/js/main.32da0d9a.js.map"
+    "main.0e0e4bd3.js.map": "/portfolio/static/js/main.0e0e4bd3.js.map"
   },
   "entrypoints": [
     "static/css/main.25c7fd6a.css",
-    "static/js/main.32da0d9a.js"
+    "static/js/main.0e0e4bd3.js"
   ]
 }
