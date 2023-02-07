@@ -33,7 +33,7 @@
 		padding-left: 2vw;
 		padding-right: 2vw;
 		.letter {
-			transition: ease-out 1s;
+			transition: ease-out 2s;
 			transform: translateY(40%);
 		}
 		.shadow {
@@ -43,11 +43,11 @@
 		}
 		&:hover {
 			.letter {
-				transform: translateY(-200%);
+				transform: translateY(-100%);
 			}
 			.shadow {
 				opacity: 0;
-				transform: translateY(200%);
+				transform: translateY(100%);
 			}
 		}
 	}
