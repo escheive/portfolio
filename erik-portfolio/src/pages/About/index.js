@@ -6,13 +6,14 @@ import { Link } from 'react-router-dom';
 // Assets
 import profilePhoto from '../../assets/profilePhoto.jpg';
 import bball_dunk from '../../assets/germany_bball_dunk.jpg';
+import drone_water from '../../assets/drone_water.JPG';
 
 export default function About() {
 
     return (
         <Box className='about-me-page' align='center' sx={{ my: 8 }}>
             
-            <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}} className='about-me-section'>
+            <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', mb: 5}}>
                 <Box sx={{ mb: 5 }}>
                     <Image
                         sx={{ maxWidth: '520px', maxHeight: '700px', px: 1, mr: 2 }}
@@ -30,8 +31,8 @@ export default function About() {
                 </Box>
             </Box>
 
-            <Box sx={{ display: 'flex', flexWrap: 'wrap-reverse', justifyContent: 'center', mt: 4}}>
-                <Box sx={{ maxWidth: '30vw', minWidth: '300px', mr: 2, my: 'auto' }} className='about-me-section'>
+            <Box sx={{ display: 'flex', flexWrap: 'wrap-reverse', justifyContent: 'center', mb: 5}}>
+                <Box sx={{ maxWidth: '30vw', minWidth: '300px', mr: 2, my: 'auto' }}>
                     <Typography sx={{ mb: 2, fontSize: 'calc(18px + 2vw)' }} >
                         Basketball
                     </Typography>
@@ -45,6 +46,24 @@ export default function About() {
                         src={bball_dunk}
                         alt="profile photo"
                     />
+                </Box>
+            </Box>
+
+            <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
+                <Box sx={{ mb: 5 }}>
+                    <Image
+                        sx={{ maxWidth: '520px', maxHeight: '700px', px: 1, mr: 2 }}
+                        src={drone_water}
+                        alt="profile photo"
+                    />
+                </Box>
+                <Box sx={{ maxWidth: '30vw', minWidth: '300px', ml: 2, my: 'auto' }}>
+                    <Typography sx={{ mb: 2, fontSize: 'calc(18px + 2vw)' }} >
+                        Hiking
+                    </Typography>
+                    <Typography sx={{ lineHeight: '32px'}} variant="body1" color="text.secondary">
+                        I love getting out in nature in my free time. I love going on hikes and taking my camera or drone and getting some amazing shots. Washington is a beautiful state so I never run out of places to explore. If you want to see more of my photos, check out my <Link to='/portfolio/photos'>photos</Link> page!
+                    </Typography>
                 </Box>
             </Box>
 
