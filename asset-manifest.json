@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.88098f7c.css",
-    "main.js": "/portfolio/static/js/main.5bed42c5.js",
+    "main.css": "/portfolio/static/css/main.eb442fd7.css",
+    "main.js": "/portfolio/static/js/main.e9f6bc29.js",
     "static/media/profilePhoto.jpg": "/portfolio/static/media/profilePhoto.0c573bba49e3bac070af.jpg",
+    "static/media/germany_bball_dunk.jpg": "/portfolio/static/media/germany_bball_dunk.3a9cbabd960c455709e1.jpg",
     "static/media/HikersHub.png": "/portfolio/static/media/HikersHub.1d7eec3f68885c9979cb.png",
     "static/media/postgres.png": "/portfolio/static/media/postgres.578077eca13c03fd4527.png",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.36241e83375e5009aaeb.png",
@@ -52,11 +53,11 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/portfolio/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/portfolio/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/portfolio/index.html",
-    "main.88098f7c.css.map": "/portfolio/static/css/main.88098f7c.css.map",
-    "main.5bed42c5.js.map": "/portfolio/static/js/main.5bed42c5.js.map"
+    "main.eb442fd7.css.map": "/portfolio/static/css/main.eb442fd7.css.map",
+    "main.e9f6bc29.js.map": "/portfolio/static/js/main.e9f6bc29.js.map"
   },
   "entrypoints": [
-    "static/css/main.88098f7c.css",
-    "static/js/main.5bed42c5.js"
+    "static/css/main.eb442fd7.css",
+    "static/js/main.e9f6bc29.js"
   ]
 }
