@@ -1,35 +1,31 @@
-When im ready, i need to deply to github pages following these steps
+<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Welcome to my page!</h1>
 
-7. Push the React app to the GitHub repository
-Push the React app to the GitHub repository
+Hi there. I'm Erik, a software engineer based out of Seattle, Washington. This is my portfolio. Please reach out to me as I'm always looking for opportunities to connect and grow.
 
-$ npm run deploy
-That will cause the predeploy and deploy scripts defined in package.json to run.
+## Skills
+- TypeScript, JavaScript, Python
+- React, Django, Express, Node.js
+- MySQL, SQL, PostgreSQL, Mongo
+- Sass, Css, Mui, Tailwind, Bootstrap
 
-Under the hood, the predeploy script will build a distributable version of the React app and store it in a folder named build. Then, the deploy script will push the contents of that folder to a new commit on the gh-pages branch of the GitHub repository, creating that branch if it doesn't already exist.
+## Contact Me
+- [escheive.github.io/portfolio](https://escheive.github.io/portfolio)
+- [@EScheive](https://twitter.com/EScheive) on Twitter
+- [@escheive](https://www.instagram.com/escheive/?hl=en) on Instagram
+- [escheive#6988] on Discord
+- [@erik.b.scheive@gmail.com] email
+- [@erikscheive](https://www.linkedin.com/in/erikscheive/) on LinkedIn
 
-By default, the new commit on the gh-pages branch will have a commit message of "Updates". You can specify a custom commit message via the -m option, like this:
-
-$ npm run deploy -- -m "Deploy React app to GitHub Pages"
-At this point, the GitHub repository contains a branch named gh-pages, which contains the files that make up the distributable version of the React app. However, we haven't configured GitHub Pages to serve those files yet.
-
-8. Configure GitHub Pages
-Navigate to the GitHub Pages settings page
-In your web browser, navigate to the GitHub repository
-Above the code browser, click on the tab labeled "Settings"
-In the sidebar, in the "Code and automation" section, click on "Pages"
-Configure the "Build and deployment" settings like this:
-Source: Deploy from a branch
-Branch:
-Branch: gh-pages
-Folder: / (root)
-Click on the "Save" button
-That's it! The React app has been deployed to GitHub Pages! 🚀
-
-At this point, the React app is accessible to anyone who visits the homepage URL you specified in Step 4. For example, the React app I deployed is accessible at https://gitname.github.io/react-gh-pages.
-
-
-# For the homepage scss effect
+# Citations
+## For the homepage scss effect
 https://codepen.io/kajetan-orski/pen/YzQObKg
-# For the calculator
+## For the calculator
 https://www.sitepoint.com/react-tutorial-build-calculator-app/
+## For hosting on gh-pages
+https://github.com/gitname/react-gh-pages
+## Mui documentation
+https://mui.com/
+## Made using react
+https://reactjs.org/
+## Hover css effects from 
+https://ianlunn.github.io/Hover/
