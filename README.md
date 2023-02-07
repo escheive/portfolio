@@ -12,9 +12,9 @@ Hi there. I'm Erik, a software engineer based out of Seattle, Washington. This i
 - [escheive.github.io/portfolio](https://escheive.github.io/portfolio)
 - [@EScheive](https://twitter.com/EScheive) on Twitter
 - [@escheive](https://www.instagram.com/escheive/?hl=en) on Instagram
-- [escheive#6988] on Discord
-- [@erik.b.scheive@gmail.com] email
 - [@erikscheive](https://www.linkedin.com/in/erikscheive/) on LinkedIn
+- @escheive#6988 on Discord
+- @erik.b.scheive@gmail.com email
 
 # Citations
 ## For the homepage scss effect
