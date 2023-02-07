@@ -1,7 +1,0 @@
-.navLinks {
-    transition: all .2s ease-in-out;
-}
-
-.navLinks:hover {
-    transform: scale(1.2);
-}

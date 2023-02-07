@@ -131,7 +131,7 @@ export default function Calculator() {
 
     return (
 
-        <Box align='center' sx={{ my: 8, mx: 0, px: 0 }}>
+        <Box align='center' sx={{ my: 16, mx: 0, px: 0 }}>
 
             <Wrapper>
                 <Screen value={calc.num ? calc.num : calc.res} />

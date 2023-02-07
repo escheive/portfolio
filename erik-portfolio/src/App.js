@@ -17,7 +17,7 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 // STYLES
-import './App.css';
+import './App.scss';
 
 export default function App() {
 

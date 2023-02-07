@@ -6,6 +6,7 @@ import { Image } from 'mui-image';
 // Assets
 import Facenook from '../../assets/Facenook.png';
 import HikersHub from '../../assets/HikersHub.png';
+import Calculator from '../../assets/Calculator.png';
 // Style
 import './style.scss';
 
@@ -23,15 +24,27 @@ export default function Projects() {
                             src={Facenook}
                             alt="Facenook"
                         />
+                        <Typography variant='body1'>Facenook</Typography>
                     </Link>
                 </Grid>
                 
                 <Grid item sm={2} md={1}>
-                    <Link to='https://hikers-hub.herokuapp.com' target='_blank' className='hvr-float-shadow' style={{ height: '100%' }}>
+                    <Link to='https://hikers-hub.herokuapp.com' target='_blank' className='hvr-float-shadow'>
                         <Image
                             src={HikersHub}
                             alt="Hikers-Hub"
                         />
+                        <Typography variant='body1'>Hikers Hub</Typography>
+                    </Link>
+                </Grid>
+
+                <Grid item sm={2} md={1}>
+                    <Link to='/calculator' className='hvr-float-shadow'>
+                        <Image
+                            src={Calculator}
+                            alt="Calculator App"
+                        />
+                        <Typography variant='body1'>Calculator</Typography>
                     </Link>
                 </Grid>
 
