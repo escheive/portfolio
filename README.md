@@ -13,8 +13,8 @@ Hi there. I'm Erik, a software engineer based out of Seattle, Washington. This i
 - [@EScheive](https://twitter.com/EScheive) on Twitter
 - [@escheive](https://www.instagram.com/escheive/?hl=en) on Instagram
 - [@erikscheive](https://www.linkedin.com/in/erikscheive/) on LinkedIn
+- erik.b.scheive@gmail.com email
 - @escheive#6988 on Discord
-- @erik.b.scheive@gmail.com email
 
 # Citations
 ## For the homepage scss effect
