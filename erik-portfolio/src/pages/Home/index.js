@@ -1,6 +1,7 @@
 
 // Dependencies
 import { Box } from "@mui/material";
+import { Link } from 'react-router-dom';
 // Style
 import './style.scss';
 
@@ -11,7 +12,7 @@ export default function Home() {
         <Box className='main-background' style={{ height: 'calc(100vh - 125px)', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
 
             <div className='overlay'></div>
-            <a style={{ color: 'inherit', textDecoration: 'none'}} href='/about'><div class="text">
+            <Link style={{ color: 'inherit', textDecoration: 'none'}} to='/portfolio/About'><div class="text">
                 <div class="wrapper">
                     <div id="E" class="letter">E</div>
                     <div class="shadow">E</div>
@@ -60,7 +61,7 @@ export default function Home() {
                     <div id="Ethree" class="letter">E</div>
                     <div class="shadow">E</div>
                 </div>
-            </div></a>
+            </div></Link>
 
         </Box>
 

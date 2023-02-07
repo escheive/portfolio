@@ -65,7 +65,7 @@ export default function Header(props) {
                 <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                     {navItems.map((item) => (
                         <Button className='navLinks' key={item} sx={{ color: '#fff' }}>
-                            <Link style={{ color: 'white', textDecoration: 'none' }} to={`/${item}`}>
+                            <Link style={{ color: 'white', textDecoration: 'none' }} to={`/portfolio/${item}`}>
                                 {item}
                             </Link>
                         </Button>
