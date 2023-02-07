@@ -6,8 +6,6 @@ import { Link } from 'react-router-dom';
 // Assets
 import profilePhoto from '../../assets/profilePhoto.jpg';
 import bball_dunk from '../../assets/germany_bball_dunk.jpg';
-// Style
-import './style.scss';
 
 export default function About() {
 
@@ -17,7 +15,7 @@ export default function About() {
             <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}} className='about-me-section'>
                 <Box sx={{ mb: 5 }}>
                     <Image
-                        sx={{ maxWidth: '520px', px: 1, mr: 2 }}
+                        sx={{ maxWidth: '520px', maxHeight: '700px', px: 1, mr: 2 }}
                         src={profilePhoto}
                         alt="profile photo"
                     />
@@ -32,8 +30,8 @@ export default function About() {
                 </Box>
             </Box>
 
-            <Box sx={{ display: 'flex', flexWrap: 'wrap-reverse', justifyContent: 'center', mt: 4}} className='about-me-section'>
-                <Box sx={{ maxWidth: '30vw', minWidth: '300px', mr: 2, my: 'auto' }}>
+            <Box sx={{ display: 'flex', flexWrap: 'wrap-reverse', justifyContent: 'center', mt: 4}}>
+                <Box sx={{ maxWidth: '30vw', minWidth: '300px', mr: 2, my: 'auto' }} className='about-me-section'>
                     <Typography sx={{ mb: 2, fontSize: 'calc(18px + 2vw)' }} >
                         Basketball
                     </Typography>
@@ -43,7 +41,7 @@ export default function About() {
                 </Box>
                 <Box sx={{ mb: 5 }}>
                     <Image
-                        sx={{ maxWidth: '520px', px: 1, ml: 2 }}
+                        sx={{ maxWidth: '520px', maxHeight: '700px', px: 1, ml: 2 }}
                         src={bball_dunk}
                         alt="profile photo"
                     />
