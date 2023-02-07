@@ -12,7 +12,7 @@ export default function Home() {
         <Box className='main-background' style={{ height: 'calc(100vh - 125px)', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
 
             <div className='overlay'></div>
-            <Link style={{ color: 'inherit', textDecoration: 'none'}} to='/portfolio/About'><div class="text">
+            <Link style={{ color: 'inherit', textDecoration: 'none'}} to='/portfolio/about'><div class="text">
                 <div class="wrapper">
                     <div id="E" class="letter">E</div>
                     <div class="shadow">E</div>

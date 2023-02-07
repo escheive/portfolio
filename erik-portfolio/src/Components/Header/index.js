@@ -6,7 +6,7 @@ import { AppBar, Box, CssBaseline, Divider, Drawer, IconButton, List, ListItem, 
 import MenuIcon from '@mui/icons-material/Menu';
 // Variables
 const drawerWidth = 240;
-const navItems = ['Resume', 'About', 'Projects', 'Contact'];
+const navItems = ['resume', 'about', 'projects', 'contact'];
 
 
 export default function Header(props) {
@@ -65,7 +65,7 @@ export default function Header(props) {
                 <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                     {navItems.map((item) => (
                         <Button className='navLinks' key={item} sx={{ color: '#fff' }}>
-                            <Link style={{ color: 'white', textDecoration: 'none' }} to={`/portfolio/${item}`}>
+                            <Link style={{ color: 'white', textDecoration: 'none' }} to={`/portfolio/${item.toLowerCase()}`}>
                                 {item}
                             </Link>
                         </Button>

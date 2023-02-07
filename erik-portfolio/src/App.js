@@ -35,22 +35,22 @@ export default function App() {
         />
 
         <Route
-          path='/portfolio/Resume'
+          path='/portfolio/resume'
           element={<Resume />}
         />
 
         <Route
-          path='/portfolio/About'
+          path='/portfolio/about'
           element={<About />}
         />
 
         <Route
-          path='/portfolio/Contact'
+          path='/portfolio/contact'
           element={<Contact />}
         />
 
         <Route
-          path='/portfolio/Projects'
+          path='/portfolio/projects'
           element={<Projects />}
         />
 
