@@ -15,12 +15,13 @@ export default function Projects() {
     return (
         <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', my: 8, mx: 4 }}>
 
-            <Typography variant='h2' sx={{ mb: 8 }}>Projects</Typography>
+            <Typography variant='h2'>Projects</Typography>
+            <Typography align='center' variant='body1' sx={{ mb: 8 }}>Some projects may take a while to load the first time due to Heroku, the domain used to host them</Typography>
+
             <Grid container spacing={5} columns={2} align='center'>
                 <Grid item sm={2} md={1}>
-                    <Link to='https://facenook.herokuapp.com' target='_blank' className='hvr-float-shadow'>
+                    <Link to='https://facenook.herokuapp.com' target='_blank' className='hvr-float-shadow' style={{ color: 'black', textDecoration: 'none' }}>
                         <Image
-                            sx={{  }}
                             src={Facenook}
                             alt="Facenook"
                         />
@@ -29,7 +30,7 @@ export default function Projects() {
                 </Grid>
                 
                 <Grid item sm={2} md={1}>
-                    <Link to='https://hikers-hub.herokuapp.com' target='_blank' className='hvr-float-shadow'>
+                    <Link to='https://hikers-hub.herokuapp.com' target='_blank' className='hvr-float-shadow' style={{ color: 'black', textDecoration: 'none' }}>
                         <Image
                             src={HikersHub}
                             alt="Hikers-Hub"
@@ -39,7 +40,7 @@ export default function Projects() {
                 </Grid>
 
                 <Grid item sm={2} md={1}>
-                    <Link to='/calculator' className='hvr-float-shadow'>
+                    <Link to='/calculator' className='hvr-float-shadow' style={{ color: 'black', textDecoration: 'none' }}>
                         <Image
                             src={Calculator}
                             alt="Calculator App"

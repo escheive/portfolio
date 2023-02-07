@@ -4,7 +4,7 @@
 
 // Dependencies
 import { useState } from 'react';
-import { Box } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 // Components
 import Wrapper from '../../Components/Calculator/Wrapper';
 import Screen from '../../Components/Calculator/Screen';
@@ -131,7 +131,9 @@ export default function Calculator() {
 
     return (
 
-        <Box align='center' sx={{ my: 16, mx: 0, px: 0 }}>
+        <Box align='center' sx={{ my: 12, mx: 0, px: 0 }}>
+
+            <Typography sx={{ mb: 4 }} variant='h3'>Calculator</Typography>
 
             <Wrapper>
                 <Screen value={calc.num ? calc.num : calc.res} />
