@@ -36,7 +36,7 @@ export default function App() {
         />
 
         <Route
-          path='/'
+          path='/portfolio'
           element={<Home />}
         />
 
