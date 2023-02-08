@@ -4,6 +4,7 @@
   "homepage": "https://escheive.github.io/portfolio",
   "private": true,
   "dependencies": {
+    "@chrisoakman/chessboardjs": "^1.0.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@fontsource/roboto": "^4.5.8",
