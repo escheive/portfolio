@@ -20,7 +20,7 @@ export default function Header(props) {
 
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-        <Link to='/portfolio' style={{ textDecoration: 'none', color: 'inherit'}}>
+        <Link to='/' style={{ textDecoration: 'none', color: 'inherit'}}>
             <Typography variant="h6" sx={{ my: 2 }}>
                 Erik
             </Typography>
@@ -29,7 +29,7 @@ export default function Header(props) {
         <List>
             {navItems.map((item) => (
             <ListItem key={item} disablePadding>
-                <ListItemButton href={`/#/portfolio/${item}`} sx={{ textAlign: 'center' }}>
+                <ListItemButton href={`/${item}`} sx={{ textAlign: 'center' }}>
                     <ListItemText primary={item} />
                 </ListItemButton>
             </ListItem>
@@ -60,12 +60,12 @@ export default function Header(props) {
                     component="div"
                     sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                 >
-                    <Link style={{ color: 'white', textDecoration: 'none' }} to='/portfolio'>Erik</Link>
+                    <Link style={{ color: 'white', textDecoration: 'none' }} to='/'>Erik</Link>
                 </Typography>
                 <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                     {navItems.map((item) => (
                         <Button className='navLinks' key={item} sx={{ color: '#fff' }}>
-                            <Link style={{ color: 'white', textDecoration: 'none' }} to={`/portfolio/${item.toLowerCase()}`}>
+                            <Link style={{ color: 'white', textDecoration: 'none' }} to={`/${item.toLowerCase()}`}>
                                 {item}
                             </Link>
                         </Button>

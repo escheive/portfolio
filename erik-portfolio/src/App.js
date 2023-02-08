@@ -12,6 +12,7 @@ import Photos from './pages/Photos';
 // COMPONENTS
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+import NotFound from './Components/NotFound';
 // FONTS
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -30,10 +31,6 @@ export default function App() {
 
       <Routes>
 
-        <Route
-          path='*'
-          element={<Home />}
-        />
 
         <Route
           path='/portfolio'
@@ -41,34 +38,45 @@ export default function App() {
         />
 
         <Route
-          path='/portfolio/resume'
+          path='/'
+          element={<Home />}
+        />
+
+        <Route
+          path='/resume'
           element={<Resume />}
         />
 
         <Route
-          path='/portfolio/about'
+          path='/about'
           element={<About />}
         />
 
         <Route
-          path='/portfolio/contact'
+          path='/contact'
           element={<Contact />}
         />
 
         <Route
-          path='/portfolio/projects'
+          path='/projects'
           element={<Projects />}
         />
 
         <Route
-          path='/portfolio/calculator'
+          path='/calculator'
           element={<Calculator />}
         />
 
         <Route
-          path='/portfolio/photos'
+          path='/photos'
           element={<Photos />}
         />
+
+        <Route
+          path='/*'
+          element={<NotFound />}
+        />
+
 
       </Routes>
 

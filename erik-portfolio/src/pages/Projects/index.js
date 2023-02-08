@@ -40,7 +40,7 @@ export default function Projects() {
                 </Grid>
 
                 <Grid item sm={2} md={1}>
-                    <Link to='/portfolio/calculator' className='hvr-float-shadow' style={{ color: 'black', textDecoration: 'none' }}>
+                    <Link to='/calculator' className='hvr-float-shadow' style={{ color: 'black', textDecoration: 'none' }}>
                         <Image
                             src={Calculator}
                             alt="Calculator App"
