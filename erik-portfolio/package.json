@@ -1,8 +1,8 @@
 {
+  "homepage": "https://escheive.github.io/portfolio",
   "name": "erik-portfolio",
   "version": "0.1.0",
-  "homepage": "https://escheive.github.io/portfolio",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@chrisoakman/chessboardjs": "^1.0.0",
     "@emotion/react": "^11.10.5",
