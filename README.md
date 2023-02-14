@@ -16,6 +16,9 @@ Hi there. I'm Erik, a software engineer based out of Seattle, Washington. This i
 - erik.b.scheive@gmail.com email
 - @escheive#6988 on Discord
 
+## Fixed Issue
+- Calculator app used regex to add spaces where necessary for longer numbers, regex was causing safari and ios devices to not be able to access the portfolio site at all. Was able to find this problem through troubleshooting using safari developer tools. Removed regex from code and now there are no spaces but site shoud be accessible to all.
+
 # Citations
 ## For the homepage scss effect
 https://codepen.io/kajetan-orski/pen/YzQObKg
