@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import { Box, Grid, Item, Typography } from '@mui/material';
 import { Image } from 'mui-image';
 // Assets
-import Facenook from '../../assets/Facenook.png';
-import HikersHub from '../../assets/HikersHub.png';
+import musicTracker from '../../assets/musicTracker.png';
+import pokeVault from '../../assets/pokeVault.png';
 import Calculator from '../../assets/Calculator.png';
 // Style
 import './style.scss';
@@ -16,34 +16,37 @@ export default function Projects() {
         <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', my: 8, mx: 4 }}>
 
             <Typography variant='h2'>Projects</Typography>
-            <Typography align='center' variant='body1' sx={{ mb: 8 }}>Some projects may take a while to load the first time due to Heroku, the domain used to host them</Typography>
 
-            <Grid container spacing={5} columns={2} align='center'>
-                <Grid item sm={2} md={1}>
-                    <Link to='https://facenook.herokuapp.com' target='_blank' className='hvr-float-shadow' style={{ color: 'black', textDecoration: 'none' }}>
+            <Grid container spacing={5} align='center' sx={{ mt: 4 }}>
+
+                <Grid item xs={12} sm={6} md={4} lg={3}>
+                    <Link to='https://github.com/escheive/Music-Tracker' target='_blank' className='hvr-float-shadow' style={{ color: 'black', textDecoration: 'none' }}>
                         <Image
-                            src={Facenook}
-                            alt="Facenook"
+                            src={musicTracker}
+                            alt="Music-Tracker"
+                            style={{ width: '100%', height: 'auto', maxWidth: '300px', maxHeight: '400px' }}
                         />
-                        <Typography variant='body1'>Facenook</Typography>
-                    </Link>
-                </Grid>
-                
-                <Grid item sm={2} md={1}>
-                    <Link to='https://hikers-hub.herokuapp.com' target='_blank' className='hvr-float-shadow' style={{ color: 'black', textDecoration: 'none' }}>
-                        <Image
-                            src={HikersHub}
-                            alt="Hikers-Hub"
-                        />
-                        <Typography variant='body1'>Hikers Hub</Typography>
+                        <Typography variant='body1'>Music Tracker</Typography>
                     </Link>
                 </Grid>
 
-                <Grid item sm={2} md={1}>
+                <Grid item xs={12} sm={6} md={4} lg={3}>
+                    <Link to='https://github.com/escheive/pokevault' target='_blank' className='hvr-float-shadow' style={{ color: 'black', textDecoration: 'none' }}>
+                        <Image
+                            src={pokeVault}
+                            alt="PokeVault"
+                            style={{ width: '100%', height: 'auto', maxWidth: '300px', maxHeight: '400px' }}
+                        />
+                        <Typography variant='body1'>PokeVault</Typography>
+                    </Link>
+                </Grid>
+
+                <Grid item xs={12} sm={6} md={4} lg={3}>
                     <Link to='/calculator' className='hvr-float-shadow' style={{ color: 'black', textDecoration: 'none' }}>
                         <Image
                             src={Calculator}
                             alt="Calculator App"
+                            style={{ width: '100%', height: 'auto', maxWidth: '300px', maxHeight: '400px' }}
                         />
                         <Typography variant='body1'>Calculator</Typography>
                     </Link>
