@@ -4,9 +4,9 @@ Hi there. I'm Erik, a software engineer based out of Seattle, Washington. This i
 
 ## Skills
 - TypeScript, JavaScript, Python
-- React, Django, Express, Node.js
-- MySQL, SQL, PostgreSQL, Mongo
-- Sass, Css, Mui, Tailwind, Bootstrap
+- React, React Native, Vite, Django, Flask, Express, Node.js
+- SQL, PostgreSQL, MongoDB
+- Selenium, Playwright, Jest, Git
 
 ## Contact Me
 - [escheive.github.io/portfolio](https://escheive.github.io/portfolio)
@@ -15,9 +15,6 @@ Hi there. I'm Erik, a software engineer based out of Seattle, Washington. This i
 - [@erikscheive](https://www.linkedin.com/in/erikscheive/) on LinkedIn
 - erik.b.scheive@gmail.com email
 - @escheive#6988 on Discord
-
-## Fixed Issue
-- Calculator app used regex to add spaces where necessary for longer numbers, regex was causing safari and ios devices to not be able to access the portfolio site at all. Was able to find this problem through troubleshooting using safari developer tools. Removed regex from code and now there are no spaces but site shoud be accessible to all.
 
 # Citations
 ## For the homepage scss effect
